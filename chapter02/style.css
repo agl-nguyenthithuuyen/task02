@@ -1,0 +1,64 @@
+.l-layout {
+    margin: 0 auto;
+    width: 1000px;
+}
+.c-header {
+    height: 125px;
+}
+.c-inner{
+    margin-top: 45px;
+    display: flex;
+}
+.c-header__logo{
+    height: 50px;
+    width: 250px;
+    background-color: gray;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.c-header__nav{
+    width: 750px;
+    display: flex;
+    justify-content: right;
+}
+
+.c-header__nav ul {
+    list-style: none;
+}
+
+.c-header__nav ul li {
+    display: inline-block;
+}
+
+.c-header__nav ul li a {
+    margin-left: 30px;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.c-header__nav ul li:first-child a {
+    font-weight: bold;
+}
+
+.c-header__shape {
+    background-color: aqua;
+    margin-top: 20px;
+}
+.c-header__square{
+    height: 1px;
+    width: 1000px;
+    background-color: #555;
+}
+.c-header__home {
+    margin-top: 10px;
+    display: flex;
+    width: 1000px;
+    align-items: center;
+}
+.c-header__home__icon{
+    width: 25px;
+    height: 20px;
+    display: flex;
+}
