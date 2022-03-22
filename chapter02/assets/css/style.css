@@ -47,10 +47,6 @@
     font-size: 14px;
 }
 
-/* .c-header__nav ul li:first-child a {
-    font-weight: bold;
-} */
-
 .c-header__nav ul li:active {
     font-weight: bold;
 }
@@ -227,9 +223,9 @@
 
 .name-category {
     position: absolute;
-    font-size: 16px;
-    width: 114px;
-    height: 30px;
+    font-size: 1.4rem;
+    width: 133px;
+    height: 40px;
     left: 0;
     top: 0;
     color: #000;
