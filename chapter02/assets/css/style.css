@@ -1,3 +1,6 @@
+body {
+    font-family: 'Yu Gothic';
+}
 .l-layout {
     margin: 0 auto;
     width: 1000px;
@@ -10,7 +13,7 @@
 .c-inner {
     margin-top: 20px;
     display: flex;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #a8a8a8;
     padding-bottom: 18px;
 }
 
@@ -25,11 +28,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.c-header__logo a {
+    color: #fff;
+}
+
 .c-header__nav {
     width: 750px;
     display: flex;
     align-items: center;
     justify-content: right;
+}
+
+.c-hearder__a {
+    font-weight: bold;
 }
 
 .c-header__nav ul {
@@ -57,9 +68,11 @@
     display: flex;
     width: 1000px;
     align-items: center;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-.c-header__home__icon {
+.c-header__homeicon {
     width: 25px;
     height: 20px;
     display: flex;
@@ -181,12 +194,16 @@
     margin-top: 30px;
 }
 
-.p-new__item-content {
+.p-new__item--content {
     margin-left: 40px;
 }
 
-.p-new__item-content h3 {
+.p-new__item--content h3 {
     padding-bottom: 15px;
+    font-size: 16px;
+}
+.p-new__item--content p {
+    font-size: 14px;
 }
 
 .p-feature__item-content {
@@ -231,7 +248,8 @@
     color: #000;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
+    font-size: 14px;
 }
 
 .color1 {
@@ -766,13 +784,11 @@ th {
 
 .section__content-counter h1::before {
     counter-increment: section;
-    content: " "counter(section) ". ";
     color: #f5989d;
 }
 
 .section__content-counter h2::before {
     counter-increment: subsection;
-    content: counter(section) "."counter(subsection) " ";
     color: #f5989d;
     padding-left: 35px;
 }
