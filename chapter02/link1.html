@@ -2,307 +2,259 @@
 <html lang="en">
 <header>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet"href="assets/css/reset.css">
+    <link rel="stylesheet"href="assets/css/style.css">
 </header>
 
 <body>
-    <header class=" c-header ">
-        <div class=" l-layout ">
-            <div class=" c-inner ">
-                <div class=" c-header__logo ">
-                    <a href="http://127.0.0.1:5500/chapter02/home.html">
-                        250 x 50
-                    </a>
-                </div>
-                <div class=" c-header__nav ">
-                    <ul>
-                        <li>
-                            <a href="http://127.0.0.1:5500/chapter02/home.html">Home</a>
-                        </li>
-                        <li>
-                            <a class="c-hearder__a" href="http://127.0.0.1:5500/chapter02/link1.html">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="http://127.0.0.1:5500/chapter02/link2.html">Link 2</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class=" c-header__home ">
-                <img class=" c-header__homeicon " src=" assets/img/home.jpg ">
-                <span>HOME > Link 1</span>
+    <header class="c-header">
+        <div class="l-layout">
+            <div class="c-inner">
+                <div class="c-header__logo"><a href="/chapter02/home.html"><img src="assets/img/logo.png" alt="logo"></a></div>
+                <nav class="c-header__nav">
+                    <a href="/chapter02/home.html">Home</a>
+                    <a class="c-header__nav--home" href="/chapter02/link1.html">Link 1</a>
+                    <a href="/chapter02/link2.html">Link 2</a>
+                </nav>
             </div>
         </div>
     </header>
-    <div class="p-menu">
-        <div class="l-layout">
-            <div class="p-menu__list">
-                <div class="p-menu__item">
-                    <img src="assets/img/white.png" alt="">
-                    <a href="#">Anchor link 1</a>
-                </div>
-                <div class="p-menu__item">
-                    <img src="assets/img/white.png" alt="">
-                    <a href="#">Anchor link 2</a>
-                </div>
-                <div class="p-menu__item">
-                    <img src="assets/img/white.png" alt="">
-                    <a href="#">Anchor link 3</a>
-                </div>
-            </div>
 
-            <div class="p-link1">
-                <div class="p-link1__content">
-                    <div class="p-link1__title">
-                        <h3>TITLE ANCHOR LINK 1</h3>
-                        <div class="p-link1__titiletop">
-                            <p>Dummy&nbsp</p>
-                            <a href="#">dummy dummy dummy</a>&nbsp
-                            <p>dummy dummy dummy</p>
-                        </div>                        
+    <main>
+        <div class="c-breadcrumb">
+            <div class="l-layout">
+                <div class="c-breadcrumb__content"><img class="c-header__homeicon" src="assets/img/home.jpg">
+                <ul>
+                    <li><a href="/chapter02/home.html">HOME</a></li>
+                    <li><a href="/chapter02/link1.html">Link 1</a></li>
+                </ul>
+                </div>                
+            </div>
+        </div>
+        <div class="p-menu">
+            <div class="l-layout">
+                <div class="p-menu__list">
+                    <div class="p-menu__item">
+                        <img src="assets/img/white.png" alt="">
+                        <a href="#">Anchor link 1</a>
                     </div>
-                    <div class="p-link1__item">
-                        <div class="p-link1__item-text">
-                            <img src="assets/img/Image2.png">
-                            <h3>Text text</h3>
-                            <p>text text text text text text text text text text text text text text text text text text
-                                text text text text text text</p>
+                    <div class="p-menu__item">
+                        <img src="assets/img/white.png" alt="">
+                        <a href="#">Anchor link 2</a>
+                    </div>
+                    <div class="p-menu__item">
+                        <img src="assets/img/white.png" alt="">
+                        <a href="#">Anchor link 3</a>
+                    </div>
+                </div>
+    
+                <div class="p-link1">
+                    <div class="p-link1__content">
+                        <div class="p-link1__title">
+                            <h3>TITLE ANCHOR LINK 1</h3>
+                            <div class="p-link1__titiletop"><p>Dummy&nbsp</p><a href="#">dummy dummy dummy</a>&nbsp<p>dummy dummy dummy</p></div>                      
                         </div>
-                        <div class="p-link1__item-text">
-                            <img src="assets/img/Image2.png">
-                            <h3>Text text</h3>
-                            <p>text text text text text text text text text text text text text text text text text text
-                                text text text text text text</p>
+                        <div class="p-link1__item">
+                            <div class="p-link1__itemText">
+                                <img src="assets/img/Image2.png">
+                                <h3>Text text</h3>
+                                <p>Title title title title title title title title title title title title title title title title title title title title title title title title title title title title</p>
+                            </div>
+                            <div class="p-link1__itemText">
+                                <img src="assets/img/Image2.png">
+                                <h3>Text text</h3>
+                                <p>Title title title title title title title title title title title title title title title title title title title title title title</p>
+                            </div>
+                            <div class="p-link1__itemText p-link2__color2 p-link2_item2">
+                                <img src="assets/img/Image2.png">
+                                <h3>Text</h3>
+                                <p>Title title title title title title title title title title title title title title title title title title title title title title</p>
+                            </div>
+                            <div class="p-link1__itemText">
+                                <img src="assets/img/Image2.png">
+                                <h3>Text text</h3>
+                                <p>Title title title title title title title title title title title title title title title title title title </p>
+                            </div>
+                            <div class="p-link1__itemText p-link2__color1 p-link1_item3">
+                                <img src="assets/img/Image2.png">
+                                <h3>Text text text</h3>
+                                <p>Title title title title title title title title title title title title title title title title title title title title title title title title title</p>
+                            </div>
+                            <div class="p-link1__itemText">
+                                <img src="assets/img/Image2.png">
+                                <h3>Text text</h3>
+                                <p>Title title title title title title title title title title title title title title title</p>
+                            </div>
                         </div>
-                        <div class="p-link1__item-text p-link2__color2 p-link2_item2">
-                            <img src="assets/img/Image2.png">
-                            <h3>Text</h3>
-                            <p>text text text text text text text text text text text text text text text text text text
-                                text text text text text text</p>
-                        </div>
-                        <div class="p-link1__item-text">
-                            <img src="assets/img/Image2.png">
-                            <h3>Text text</h3>
-                            <p>text text text text text text text text text text text text text text text text text text
-                                text text text text text text</p>
-                        </div>
-                        <div class="p-link1__item-text p-link2__color1 p-link1_item3">
-                            <img src="assets/img/Image2.png">
+                    </div>
+                </div>
+    
+                <div class="p-link2">
+                    <div class="p-link1__title"><h3>TITLE ANCHOR LINK 2</h3></div>
+                    <div class="p-link2__item">
+                        <div class="p-link2__itemText p-link2__color1">
+                            <img src="assets/img/Image235x185.png" alt="image">
                             <h3>Text text text</h3>
-                            <p>text text text text text text text text text text text text text text text text text text
-                                text text text text text text</p>
+                            <p>Title title title title title title title title title title title title title</p>
                         </div>
-                        <div class="p-link1__item-text">
-                            <img src="assets/img/Image2.png">
+                        <div class="p-link2__itemText p-link2__color2 p-link2_item2">
+                            <img src="assets/img/Image235x185.png">
+                            <h3>Text</h3>
+                            <p>Title title title title title title title title title title title title title title title title title title title title</p>
+                        </div>
+                        <div class="p-link2__itemText p-link2__color3 p-link2_item3">
+                            <img src="assets/img/Image235x185.png">
                             <h3>Text text</h3>
-                            <p>text text text text text text text text text text text text text text text text text text
-                                text text text text text text</p>
+                            <p>Title title title title title title title title title title title title title title title title title</p>
+                        </div>
+                        <div class="p-link2__itemText p-link2__color2 p-link2_item2">
+                            <img src="assets/img/Image235x185.png">
+                            <h3>Text</h3>
+                            <p>Title title title title title title title title title title title title title title title title title title title title</p>
+                        </div>
+                        <div class="p-link2__itemText p-link2__color3 p-link2_item3">
+                            <img src="assets/img/Image235x185.png">
+                            <h3>Text text</h3>
+                            <p>Title title title title title title title title title title title title title</p>
+                        </div>
+                        <div class="p-link2__itemText p-link2__color2 p-link2_item2">
+                            <img src="assets/img/Image235x185.png">
+                            <h3>Text</h3>
+                            <p>Title title title title title title title title title title title title title title title title title title title title</p>
+                        </div>
+                        <div class="p-link2__itemText p-link2__color3 p-link2_item3">
+                            <img src="assets/img/Image235x185.png">
+                            <h3>Text text</h3>
+                            <p>Title title title title title title title title title title title title title title title title title</p>
+                        </div>
+                        <div class="p-link2__itemText p-link2__color2 p-link2_item2">
+                            <img src="assets/img/Image235x185.png">
+                            <h3>Text</h3>
+                            <p>Title title title title title title title title title title title title title title title title title title title title</p>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="p-link2">
-                <div class="p-link2__title">
-                    <h3>TITLE ANCHOR LINK 2</h3>
-                </div>
-                <div class="p-link2__item">
-                    <div class="p-link2__item-text p-link2__color1">
-                        <img src="assets/img/Image235x185.png">
-                        <h3>Text text text</h3>
-                        <p>Title title title title title title title title title title title</p>
-                    </div>
-                    <div class="p-link2__item-text p-link2__color2 p-link2_item2">
-                        <img src="assets/img/Image235x185.png">
-                        <h3>Text</h3>
-                        <p>Title title title title title title title title title title title title title title title title title title title title</p>
-                    </div>
-                    <div class="p-link2__item-text p-link2__color3 p-link2_item3">
-                        <img src="assets/img/Image235x185.png">
-                        <h3>Text text</h3>
-                        <p>Title title title title title title title title title title title title title title title title title</p>
-                    </div>
-                    <div class="p-link2__item-text p-link2__color2 p-link2_item2">
-                        <img src="assets/img/Image235x185.png">
-                        <h3>Text</h3>
-                        <p>Title title title title title title title title title title title title title title title title title title title title</p>
-                    </div>
-                    <div class="p-link2__item-text p-link2__color3 p-link2_item3">
-                        <img src="assets/img/Image235x185.png">
-                        <h3>Text text</h3>
-                        <p>Title title title title title title title title title title title title title</p>
-                    </div>
-                    <div class="p-link2__item-text p-link2__color2 p-link2_item2">
-                        <img src="assets/img/Image235x185.png">
-                        <h3>Text</h3>
-                        <p>Title title title title title title title title title title title title title title title title title title title title</p>
-                    </div>
-                    <div class="p-link2__item-text p-link2__color3 p-link2_item3">
-                        <img src="assets/img/Image235x185.png">
-                        <h3>Text text</h3>
-                        <p>Title title title title title title title title title title title title title title title title title</p>
-                    </div>
-                    <div class="p-link2__item-text p-link2__color2 p-link2_item2">
-                        <img src="assets/img/Image235x185.png">
-                        <h3>Text</h3>
-                        <p>Title title title title title title title title title title title title title title title title title title title title</p>
-                    </div>
-                </div>
-            </div>
-            <div class="p-link3">
-                <div class="p-link3__title">
-                    <h3>TITLE ANCHOR LINK 3</h3>
-                </div>
-                <div class="p-link3__caption">
-                    <div class="cap1">
-                        <h3>Caption table 1</h3>
-                        <h4>Dummy dummy <a class="cap1-a" href="#">dummy dummy dummy dummy</a> dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy</h4>
-                        <div class="table1">
-                            <table>
-                                <colgroup>
-                                    <col span="1" style="background-color: #d3d7d9">
-                                </colgroup>
-                                <tr>
-                                    <th colspan="1" style="width:13%"></th>
-                                    <th>title</th>
-                                    <th>title</th>
-                                    <th>title</th>
-                                </tr>
-                                <tr>
-                                    <td>title</td>
-                                    <td>text text text</td>
-                                    <td>text text text</td>
-                                    <td>text text text</td>
-                                </tr>
-                                <tr>
-                                    <td>title</td>
-                                    <td>text text text</td>
-                                    <td>text text text</td>
-                                    <td>text text text</td>
-                                </tr>
-                                <tr>
-                                    <td style="background-color: #6dcff6;">title</td>
-                                    <td>text text text</td>
-                                    <td>text text text</td>
-                                    <td>text text text</td>
-                                </tr>
-                            </table>
+                <div class="p-link3">
+                    <div class="p-link3__title"><h3>TITLE ANCHOR LINK 3</h3></div>
+                    <div class="p-link3__caption">
+                        <div class="cap1">
+                            <h3>Caption table 1</h3>
+                            <h4>Dummy dummy <a class="cap1-a" href="#">dummy dummy dummy dummy</a> dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy</h4>
+                            <div class="table1">
+                                <table>
+                                    <colgroup><col span="1" style="background-color: #d3d7d9"></colgroup>
+                                    <tr>
+                                        <th colspan="1"style="width:13%"></th>
+                                        <th>title</th>
+                                        <th>title</th>
+                                        <th>title</th>
+                                    </tr>
+                                    <tr>
+                                        <td>title</td>
+                                        <td>text text text</td>
+                                        <td>text text text</td>
+                                        <td>text text text</td>
+                                    </tr>
+                                    <tr>
+                                        <td>title</td>
+                                        <td>text text text</td>
+                                        <td>text text text</td>
+                                        <td>text text text</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color: #6dcff6;">title</td>
+                                        <td>text text text</td>
+                                        <td>text text text</td>
+                                        <td>text text text</td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
-                    </div>
-                    <div class="cap2">
-                        <h3>Caption table 2</h3>
-                        <h4>Dummy dummy dummy dummy dummy dummy <a class="cap2-a" href="#">dummy dummy</a> dummy dummy
-                            dummy
-                        </h4>
-                        <div class="table2">
-                            <table>
-                                <colgroup>
-                                    <col span="1" style="background-color: #d3d7d9">
-                                </colgroup>
-                                <tr>
-                                    <td>title</td>
-                                    <td>text text text</td>
-                                    <td>text text text</td>
-                                    <td>text text text</td>
-                                </tr>
-                                <tr>
-                                    <td>title</td>
-                                    <td>text text text</td>
-                                    <td>text text text</td>
-                                    <td>text text text</td>
-                                </tr>
-                                <tr>
-                                    <td>title</td>
-                                    <td>text text text</td>
-                                    <td>text text text</td>
-                                    <td>text text text</td>
-                                </tr>
-                            </table>
+                        <div class="cap2">
+                            <h3>Caption table 2</h3>
+                            <h4>Dummy dummy dummy dummy dummy dummy <a class="cap2-a" href="#">dummy dummy</a> dummy dummy dummy</h4>
+                            <div class="table2">
+                                <table>
+                                    <colgroup><col span="1" style="background-color: #d3d7d9"></colgroup>
+                                    <tr>
+                                        <td>title</td>
+                                        <td>text text text</td>
+                                        <td>text text text</td>
+                                        <td>text text text</td>
+                                    </tr>
+                                    <tr>
+                                        <td>title</td>
+                                        <td>text text text</td>
+                                        <td>text text text</td>
+                                        <td>text text text</td>
+                                    </tr>
+                                    <tr>
+                                        <td>title</td>
+                                        <td>text text text</td>
+                                        <td>text text text</td>
+                                        <td>text text text</td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>    
+        </div>
+    </main>
+    
+    <footer class="c-footer">
+        <div class="c-breadcrumb c-footer__breadcrumb">
+            <div class="l-layout">
+                <div class="c-breadcrumb__content"><img class="c-header__homeicon" src="assets/img/home.jpg">
+                <ul>
+                    <li><a href="/chapter02/home.html">HOME</a></li>
+                    <li><a href="/chapter02/link1.html">Link 1</a></li>
+                </ul>
+                </div>                
             </div>
         </div>
-
-    </div>
-    <footer class=" c-footer ">
-        <div class=" c-footer__inner ">
-            <div class=" c-footer__home ">
-                <img class=" c-header__homeicon " src=" assets/img/home.jpg ">
-                <span>HOME > Link 1</span>
-            </div>
-        </div>
-        <div class=" c-footer__link ">
-            <div class=" c-footer__list ">
-                <div class=" c-footer__item ">
-                    <div class=" c-footer__item-content ">
-                        <div class=" c-footer__item-link ">
+        <div class="c-footer__link">
+            <div class="c-footer__list">
+                <div class="c-footer__item">
+                    <div class="c-content">
+                        <div class="c-itemlink">
                             <h3>Box link 1</h3>
-                            <div class=" c-footer__nav c-footer__nav-color1 ">
+                            <div class="c-footer__nav c-footer__nav-color1">
                                 <ul>
-                                    <li>
-                                        <a href=" # ">Link link</a>
-                                    </li>
-                                    <li>
-                                        <a href=" # ">Link link link</a>
-                                    </li>
-                                    <li>
-                                        <a href=" # ">Link link link link link</a>
-                                    </li>
-                                    <li>
-                                        <a href=" # ">Link link link</a>
-                                    </li>
-                                    <li>
-                                        <a href=" # ">Link link link link</a>
-                                    </li>
+                                    <li><a href="#">Link link</a></li>
+                                    <li><a href="#">Link link link</a></li>
+                                    <li><a href="#">Link link link link link</a></li>
+                                    <li><a href="#">Link link link</a></li>
+                                    <li><a href="#">Link link link link</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class=" c-footer__item-link ">
+                        <div class="c-itemlink">
                             <h3>Box link 1</h3>
-                            <div class=" c-footer__nav c-footer__nav-color2 ">
+                            <div class="c-footer__nav c-footer__nav-color2">
                                 <ul>
-                                    <li>
-                                        <a href=" # ">Link link</a>
-                                    </li>
-                                    <li>
-                                        <a href=" # ">Link link link</a>
-                                    </li>
-                                    <li>
-                                        <a href=" # ">Link link link link link</a>
-                                    </li>
-                                    <li>
-                                        <a href=" # ">Link link link</a>
-                                    </li>
-                                    <li>
-                                        <a href=" # ">Link link link link</a>
-                                    </li>
+                                    <li><a href="#">Link link</a></li>
+                                    <li><a href="#">Link link link</a></li>
+                                    <li><a href="#">Link link link link link</a></li>
+                                    <li><a href="#">Link link link</a></li>
+                                    <li><a href="#">Link link link link</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class=" c-footer__item-link ">
+                        <div class="c-itemlink">
                             <h3>Box link 1</h3>
-                            <div class=" c-footer__nav c-footer__nav-color3 ">
+                            <div class="c-footer__nav c-footer__nav-color3">
                                 <ul>
-                                    <li>
-                                        <a href=" # ">Link link</a>
-                                    </li>
-                                    <li>
-                                        <a href=" # ">Link link link</a>
-                                    </li>
-                                    <li>
-                                        <a href=" # ">Link link link link link</a>
-                                    </li>
-                                    <li>
-                                        <a href=" # ">Link link link</a>
-                                    </li>
-                                    <li>
-                                        <a href=" # ">Link link link link</a>
-                                    </li>
+                                    <li><a href="#">Link link</a></li>
+                                    <li><a href="#">Link link link</a></li>
+                                    <li><a href="#">Link link link link link</a></li>
+                                    <li><a href="#">Link link link</a></li>
+                                    <li><a href="#">Link link link link</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -310,8 +262,7 @@
                 </div>
             </div>
         </div>
-        <div class=" c-footer__copyright ">
-            <p>© Copyright Allgrow Labo 2018</p>
-        </div>
+        <div class="c-footer__copyright"><p>© Copyright Allgrow Labo 2018</p></div>
     </footer>
+
 </body>
