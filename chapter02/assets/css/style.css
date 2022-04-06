@@ -97,6 +97,7 @@ body {
     height: 60px;
     font-size: 1.4rem;
     padding-top: 202px;
+    line-height: 30px;
 }
 
 .p-banner__content a {
@@ -145,13 +146,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.section__title-color1 {
+.section__title--color1 {
     border: #ffd800 solid 2px;
     border-left: #ffd800 solid 7px;
     background-color: #fff9da;
 }
 
-.section__title-colorl1 {
+.section__title--colorl1 {
     border-left: #11638a solid 7px;
     background-color: #bcd5e1;
     margin-top: 50px;
@@ -405,16 +406,17 @@ body {
 }
 
 .c-footer__inner {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #cccccc;
     padding-bottom: 8px;
-    padding-top: 5px;
-    border-top: 1px solid #000;
+    padding-top: 8px;
+    border-top: 1px solid #cccccc;
     padding-left: 95px;
 }
 
 .c-footer__home {
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 
 .c-footer__link {
@@ -422,6 +424,7 @@ body {
     height: 200px;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #cccccc;
 }
 
 .c-footer__copyright {
@@ -455,7 +458,6 @@ body {
     padding-left: 13px;
     padding-top: 4px;
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 19px;
 }
 
@@ -465,14 +467,12 @@ body {
     padding-top: 6px;
     font-size: 14px;
     line-height: 19px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .c-footer__nav-color3 ul {
     list-style-image: url("../img/link-16.png");
     padding-left: 22px;
     padding-top: 9px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .c-footer__item-link {
@@ -482,9 +482,8 @@ body {
 
 .c-footer__item-link h3 {
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #cccccc;
     width: 300px;
     padding-bottom: 6px;
 }
@@ -498,7 +497,6 @@ body {
 
 .p-menu__list {
     display: flex;
-    background-color: aliceblue;
     justify-content: space-between;
     margin-top: 30px;
 }
@@ -527,10 +525,31 @@ body {
 }
 
 .p-link1__title {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #cccccc;
     height: 35px;
     font-size: 18px;
     padding-top: 2px;
+}
+
+.p-link1__title h3 {
+    color: #222222;
+}
+
+.p-link1__titiletop {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.p-link1__titiletop p {
+    color: #222222;
+    font-weight: 500;
+}
+
+.p-link1__titiletop a {
+    color: #1f53fa;
+    text-decoration: underline;
 }
 
 .p-link1__item {
@@ -574,8 +593,17 @@ body {
 }
 
 .p-link2__title {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #cccccc;
     padding-bottom: 15px;
+    color: #222222;
+}
+
+.link2__colortitle1 {
+    color: #11638a;
+}
+
+.link2__colortitle2 {
+    color: #f5989d;
 }
 
 .p-link2__item {
@@ -625,6 +653,9 @@ body {
 
 .p-link2__item-text p {
     margin-top: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222222;
 }
 
 .p-link3 {
@@ -632,8 +663,9 @@ body {
 }
 
 .p-link3__title {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #cccccc;
     padding-bottom: 15px;
+    color: #222222;
 }
 
 .p-link3__title h3 {
@@ -641,8 +673,8 @@ body {
 }
 
 .cap1-a {
-    text-decoration: underline;
-    color: red;
+    text-decoration-line: underline;
+    color: #ff0000;
 }
 
 .cap2-a {
@@ -657,8 +689,9 @@ body {
 table,
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid #cccccc;
     border-collapse: collapse;
+    font-size: 14px;
 }
 
 table {
@@ -700,7 +733,7 @@ th {
     margin-bottom: 110px;
 }
 
-.p-title h3 {
+.p-title__top {
     margin-top: 30px;
     height: 80px;
     background-color: #6dcff6;
@@ -709,6 +742,9 @@ th {
     align-items: center;
     border: 2px solid #000;
     font-size: 32px;
+    color: #000000;
+    line-height: 20px;
+    font-weight: bold;
 }
 
 .section__content1 {
@@ -767,27 +803,27 @@ th {
     margin-top: 12px;
 }
 
-.section__content-counter {
+.section__content--counter {
     counter-reset: section;
     margin-top: 25px;
     line-height: 30px;
 }
 
-.section__content-counter h1 {
+.section__content--counter h1 {
     font-weight: 500;
     counter-reset: subsection;
 }
 
-.section__content-counter h2 {
+.section__content--counter h2 {
     font-weight: 500;
 }
 
-.section__content-counter h1::before {
+.section__content--counter h1::before {
     counter-increment: section;
     color: #f5989d;
 }
 
-.section__content-counter h2::before {
+.section__content--counter h2::before {
     counter-increment: subsection;
     color: #f5989d;
     padding-left: 35px;
