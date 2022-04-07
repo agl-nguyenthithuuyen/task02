@@ -56,10 +56,6 @@ body {
     font-size: 14px;
 }
 
-.c-header__nav ul li:active {
-    font-weight: bold;
-}
-
 .c-header__home {
     margin-top: 26px;
     display: flex;
@@ -709,18 +705,14 @@ body {
     font-size: 18px;
 }
 
-.cap1-a {
+.c-caption1__a {
     text-decoration-line: underline;
     color: #ff0000;
 }
 
-.cap2-a {
+.c-caption2__a {
     text-decoration: underline;
     color: #ff9c00;
-}
-
-.textt1 {
-    color: red;
 }
 
 table,
@@ -757,7 +749,7 @@ th {
     margin-bottom: 25px;
 }
 
-.table1 {
+.c-table__link3 {
     margin-top: 20px;
     margin-bottom: 50px;
 }
@@ -766,7 +758,7 @@ th {
     margin-top: 13px;
 }
 
-.cap2 {
+.c-caption2 {
     margin-top: 1px;
     margin-bottom: 110px;
 }
@@ -832,51 +824,68 @@ th {
     line-height: 20px;
 }
 
-.c-content-title3 {
+.c-content__title3 {
     margin-top: 30px;
 }
 
-.c-content-title4 {
+.c-content__title3 h4 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.c-content__title4 {
     margin-top: 28px;
 }
 
-.c-content-title3 p {
-    margin-top: 10px;
+.c-content__title4 h4{
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.c-content__title3 p {
+    margin-top: 5px;
     line-height: 20px;
     font-size: 15px;
 }
 
-.c-content-title4 p {
-    margin-top: 12px;
+.c-content__title4 p {
+    margin-top: 4px;
+    font-size: 15px;
+    line-height: 20px;
 }
 
-.c-content--counter {
+.c-content__counter {
     counter-reset: section;
     margin-top: 25px;
+}
+
+.c-content__counter h1 {
+    font-weight: 500;
+    counter-reset: subsection;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.c-content__counter h2 {
+    font-weight: 500;
+    font-size: 15px;
     line-height: 30px;
 }
 
-.c-content--counter h1 {
-    font-weight: 500;
-    counter-reset: subsection;
-}
-
-.c-content--counter h2 {
-    font-weight: 500;
-}
-
-.c-content--counter h1::before {
+.c-content__counter h1::before {
     counter-increment: section;
+    content: counter(section) ". ";
     color: #f5989d;
 }
 
-.c-content--counter h2::before {
+.c-content__counter h2::before {
     counter-increment: subsection;
-    color: #f5989d;
+    content: counter(section) "." counter(subsection) " ";
     padding-left: 35px;
+    color: #f5989d;
 }
 
-.c-content-title5 {
+.c-content__title5 {
     margin-top: 15px;
     border: 1px solid #f5989d;
     padding: 20px;
@@ -887,7 +896,7 @@ th {
 }
 
 .c-contentfinal {
-    margin-top: 38px;
+    margin-top: 35px;
     line-height: 20px;
 }
 
@@ -897,10 +906,10 @@ th {
 
 .c-contentTable {
     margin-top: 11px;
-    margin-bottom: 125px;
+    margin-bottom: 122px;
 }
 
-.table__link2 {
+.c-table__link2 {
     width: 100%;
 }
 
